@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+    margin: 20px 0;
+    padding: 10px;
+    gap: 10px;
+}
+.row {
+    flex-direction: row;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+.column {
+    flex-direction: column;
+}
+.column-reverse {
+    flex-direction: column-reverse;
+}
+.box {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    width: 80px;
+}
+.box01 {
+    background-color: purple;
+}
+.box02 {
+    background-color: cornflowerblue;
+}
+.box03 {
+    background-color: crimson;
+}
